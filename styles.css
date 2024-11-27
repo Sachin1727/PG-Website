@@ -298,6 +298,83 @@ h2 {
     margin-bottom: 1rem;
 }
 
+/* House Rules Section */
+.house-rules {
+    padding: 4rem 1rem;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.house-rules h2 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 2rem;
+}
+
+.rules-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.rule {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background: #fff;
+    padding: 1.5rem;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    position: relative;
+}
+
+.rule img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 1rem;
+}
+
+.rule p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.5;
+}
+
+.rule strong {
+    color: #333;
+    font-weight: bold;
+}
+
+.status {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Status Indicators */
+.status.allowed {
+    color: #28a745;
+    border: 2px solid #28a745;
+}
+
+.status.not-allowed {
+    color: #dc3545;
+    border: 2px solid #dc3545;
+}
+
+
+
 /* Food Menu Section */
 .food-menu {
     padding: 4rem 1rem;
